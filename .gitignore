@@ -1,0 +1,5 @@
+# Project exclude paths
+/spi-common/target/
+/spi-racing-car/target/
+/spi-suv-car/target/
+/test-call-spi/target/

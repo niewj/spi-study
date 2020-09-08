@@ -47,7 +47,7 @@ com.mysql.cj.jdbc.ConnectionImpl@32b260fa
 
 ## 1.4 观察:
 
-<img src="../notes/imgs/spi-001.png" alt="image-20200908134354910" style="zoom: 50%;" />
+<img src="https://niewj.com/notes/spi-001.png" alt="image-20200908134354910" style="zoom: 50%;" />
 
 ### 1.4.1 MySQL的jdbc驱动jar包：
 
@@ -276,7 +276,7 @@ com.niewj.suv.service.impl.SuvCar
 
 如图：
 
-<img src="../notes/imgs/spi-suv-car-dir.png" alt="image-20200908152555847" style="zoom:50%;" />
+<img src="https://niewj.com/notes/spi-suv-car-dir.png" alt="image-20200908152555847" style="zoom:50%;" />
 
 ## 4.4. 案例代码-(3): spi-racing-car
 
@@ -322,7 +322,7 @@ com.niewj.racing.service.impl.RacingCar
 
 如图：
 
-<img src="../notes/imgs/spi-racing-car-dir.png" alt="image-20200908153944307" style="zoom:50%;" />
+<img src="https://niewj.com/notes/spi-racing-car-dir.png" alt="image-20200908153944307" style="zoom:50%;" />
 
 ## 4.5. 代码-(4): test-call-spi调用部分
 
@@ -550,7 +550,7 @@ lazy? 莫非是内部类会延迟加载？ 难道它有静态方法帮初始化�
 
 那是怎么 lazy的？咋整呢！？
 
-<img src="../notes/imgs/what.png" alt="image-20200908173649694" style="zoom:50%;" />
+<img src="https://niewj.com/notes/what.png" alt="image-20200908173649694" style="zoom:50%;" />
 
 回过头来， 看看我们是怎么用的。。。下面代码：我们是load完之后， 拿到他的迭代器， 然后放入我们自己的集合中。。。莫非。。。。莫非。。。他是在遍历的时候才初始化？lazy懒加载懒到这么懒？？
 
